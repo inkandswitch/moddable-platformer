@@ -6,8 +6,8 @@ reloadable = false
 [libraries]
 #linux.debug.x86_64 =     "res://target/debug/librust_project.so"
 #linux.release.x86_64 =   "res://target/release/librust_project.so"
-#windows.debug.x86_64 =   "res://target/debug/librust_project.dll"
-#windows.release.x86_64 = "res://target/release/librust_project.dll"
+windows.debug.x86_64 =   "res://target/x86_64-pc-windows-gnu/debug/librust_project.dll"
+windows.release.x86_64 = "res://target/target/x86_64-pc-windows-gnu/release/rust_project.dll"
 macos.debug =            "res://target/debug/librust_project.dylib"
 macos.release =          "res://target/release/librust_project.dylib"
 macos.debug.arm64 =      "res://target/debug/librust_project.dylib"
