@@ -20,13 +20,15 @@
 position = Vector2(1920, -64)
 
 [node name="Platform5" parent="Platforms" instance=ExtResource("1_adwlw")]
-position = Vector2(1073, -275)
+position = Vector2(371, -43)
+rotation = 0.127409
 width = 2
 one_way = true
 fall_time = 2.0
 
 [node name="Platform4" parent="Platforms" instance=ExtResource("1_adwlw")]
-position = Vector2(-243, -1011)
+position = Vector2(-998, -62)
+rotation = -0.0349066
 width = 2
 one_way = true
 fall_time = 2.0
@@ -38,7 +40,8 @@ one_way = true
 fall_time = 2.0
 
 [node name="Platform8" parent="Platforms" instance=ExtResource("1_adwlw")]
-position = Vector2(-192, 0)
+z_index = 3
+position = Vector2(-128, -40)
 width = 2
 one_way = true
 fall_time = 2.0
@@ -48,7 +51,7 @@ position = Vector2(1274, -64)
 width = 2
 
 [node name="Platform7" parent="Platforms" instance=ExtResource("1_adwlw")]
-position = Vector2(-512, 0)
+position = Vector2(-597, -58)
 width = 2
 one_way = true
 fall_time = 2.0
@@ -118,7 +121,7 @@ tint = Color(1, 1, 0, 1)
 
 [node name="Coin15" parent="Coins" instance=ExtResource("5_1beco")]
 modulate = Color(1, 1, 0, 1)
-position = Vector2(2752, 128)
+position = Vector2(2148, -402)
 texture = ExtResource("6_axg5m")
 tint = Color(1, 1, 0, 1)
 
@@ -178,7 +181,7 @@ tint = Color(1, 1, 0, 1)
 
 [node name="Coin5" parent="Coins" instance=ExtResource("5_1beco")]
 modulate = Color(1, 1, 0, 1)
-position = Vector2(2880, 128)
+position = Vector2(2276, -402)
 texture = ExtResource("6_axg5m")
 tint = Color(1, 1, 0, 1)
 
@@ -202,7 +205,7 @@ tint = Color(1, 1, 0, 1)
 
 [node name="Coin14" parent="Coins" instance=ExtResource("5_1beco")]
 modulate = Color(1, 1, 0, 1)
-position = Vector2(3008, 128)
+position = Vector2(2404, -402)
 texture = ExtResource("6_axg5m")
 tint = Color(1, 1, 0, 1)
 
