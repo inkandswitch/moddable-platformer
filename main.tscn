@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://coq6d3u6wnvs2" path="res://components/platform/platform.tscn" id="1_adwlw"]
 [ext_resource type="PackedScene" uid="uid://dthyncc3spfks" path="res://spaces/dangerzone.tscn" id="2_1jbli"]
-[ext_resource type="Script" path="res://scripts/multiplayer_camera.gd" id="3_0pbdk"]
+[ext_resource type="Script" uid="uid://dlcc10vhsjehm" path="res://scripts/multiplayer_camera.gd" id="3_0pbdk"]
 [ext_resource type="PackedScene" uid="uid://dk0xon0k7ga23" path="res://components/enemy/enemy.tscn" id="4_er7x5"]
 [ext_resource type="PackedScene" uid="uid://daf24t18h3n5e" path="res://components/coin/coin.tscn" id="5_1beco"]
 [ext_resource type="Texture2D" uid="uid://bjqboxowe07lw" path="res://assets/items/crystal.png" id="6_axg5m"]
@@ -20,13 +20,13 @@
 position = Vector2(1920, -64)
 
 [node name="Platform5" parent="Platforms" instance=ExtResource("1_adwlw")]
-position = Vector2(-1214, -224)
+position = Vector2(1073, -275)
 width = 2
 one_way = true
 fall_time = 2.0
 
 [node name="Platform4" parent="Platforms" instance=ExtResource("1_adwlw")]
-position = Vector2(-1536, -64)
+position = Vector2(-243, -1011)
 width = 2
 one_way = true
 fall_time = 2.0
@@ -44,7 +44,7 @@ one_way = true
 fall_time = 2.0
 
 [node name="Platform2" parent="Platforms" instance=ExtResource("1_adwlw")]
-position = Vector2(1216, -64)
+position = Vector2(1274, -64)
 width = 2
 
 [node name="Platform7" parent="Platforms" instance=ExtResource("1_adwlw")]
@@ -54,7 +54,8 @@ one_way = true
 fall_time = 2.0
 
 [node name="Platform6" parent="Platforms" instance=ExtResource("1_adwlw")]
-position = Vector2(-811, -165)
+position = Vector2(777, -640)
+rotation = 0.335103
 width = 2
 one_way = true
 fall_time = 2.0
@@ -123,7 +124,7 @@ tint = Color(1, 1, 0, 1)
 
 [node name="Coin10" parent="Coins" instance=ExtResource("5_1beco")]
 modulate = Color(1, 1, 0, 1)
-position = Vector2(3008, -320)
+position = Vector2(585, -491)
 texture = ExtResource("6_axg5m")
 tint = Color(1, 1, 0, 1)
 
@@ -153,7 +154,7 @@ tint = Color(1, 1, 0, 1)
 
 [node name="Coin6" parent="Coins" instance=ExtResource("5_1beco")]
 modulate = Color(1, 1, 0, 1)
-position = Vector2(3136, -384)
+position = Vector2(713, -555)
 texture = ExtResource("6_axg5m")
 tint = Color(1, 1, 0, 1)
 
@@ -195,7 +196,7 @@ tint = Color(1, 1, 0, 1)
 
 [node name="Coin11" parent="Coins" instance=ExtResource("5_1beco")]
 modulate = Color(1, 1, 0, 1)
-position = Vector2(3264, -320)
+position = Vector2(875, -508)
 texture = ExtResource("6_axg5m")
 tint = Color(1, 1, 0, 1)
 
